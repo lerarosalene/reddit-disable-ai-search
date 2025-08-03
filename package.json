@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "reddit-disable-ai-search",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "typecheck": "tsc"
+  },
+  "keywords": [
+    "reddit",
+    "userscript"
+  ],
+  "author": "Larissa Rosalene <lerarosalene@outlook.com>",
+  "license": "ISC",
+  "description": "Disable AI-generated search links on Reddit",
+  "dependencies": {
+    "esbuild": "^0.25.8",
+    "typescript": "^5.9.2",
+    "userscript-header-format": "^1.1.0"
+  }
+}
